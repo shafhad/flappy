@@ -38,7 +38,7 @@ class Game {
     car1.addImage("blast", blastImage);
 
     car2 = createSprite(width / 2 + 100, height - 100);
-    car2.addImage("car2",bird1image);
+    car2.addImage("car2",bird1imgae);
     car2.scale = 0.07;
 
     car2.addImage("blast", blastImage);
@@ -104,8 +104,8 @@ class Game {
 
   handleElements() {
     form.hide();
-    form.titleImg.position(40, 50);
-    form.titleImg.class("gameTitleAfterEffect");
+    //form.titleImg.position(40, 50);
+    //form.titleImg.class("gameTitleAfterEffect");
 
     //C39
     this.resetTitle.html("Reset Game");

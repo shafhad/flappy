@@ -2,9 +2,7 @@ class Form {
   constructor() {
     this.input = createInput("").attribute("placeholder", "Enter your name");
     this.playButton = createButton("Play");
-    //this.titleImg = createImg(flappytitle, "game title");
-    
-     this.titleImg = createImg(flappytitle, "game title");
+    this.titleImg = createImg("assets/flappytitle.png", "game title");
     this.greeting = createElement("h2");
   }
 
@@ -16,7 +14,7 @@ class Form {
   }
 
   setElementsStyle() {
-    this.titleImg.class("gameTitle");
+  //  this.titleImg.class("gameTitle");
     this.input.class("customInput");
     this.playButton.class("customButton");
     this.greeting.class("greeting");
